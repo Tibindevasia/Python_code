@@ -2,6 +2,7 @@ def bmi_cal():
     """The body mass index is calculated by dividing an
     individual’s weight in kilograms by their height in meters, 
     then dividing the answer again by their height."""
+    
     height=float(input("Enter your height in centimeters: "))
     weight=float(input("Enter your Weight in Kg: "))
     height = height/100
